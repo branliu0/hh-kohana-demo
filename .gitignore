@@ -1,0 +1,3 @@
+application/bootstrap.php
+modules/database/config/database.php
+.htaccess
