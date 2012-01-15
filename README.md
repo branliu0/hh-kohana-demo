@@ -7,3 +7,9 @@ Then please remove the .template ending for the following files, and fill your c
     application/bootstrap.php.template
     modules/database/config/database.php/template
     htaccess.template (rename to .htaccess)
+
+Please also create the following table so that this application can run properly:
+
+    CREATE TABLE `kohana_posts` (
+    `author` varchar(255) NOT NULL,
+    `body` text NOT NULL);
